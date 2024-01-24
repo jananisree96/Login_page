@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(../Image/blurimg.jpg) 
+}
+
+.login-container{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    width: 300px;
+    text-align: center;
+}
+
+h2{
+    color: #333;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.login-button{
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login-button:hover {
+    background-color: #3e8e41; /* Change the hover background color */
+    transform: scale(1.1); /* Add a scaling effect on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Add smooth transitions */
+}
